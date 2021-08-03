@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #363636;
+  padding: 50px 0;
+}
+.container{
+  width: 80%;
+  height: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.title{
+  color: whitesmoke;
+  font-size: 40px;
+  text-align: center;
+  align-items: flex-start;
+}
+form{
+  width: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+form .input{
+  width: 100%;
+}
+form textarea,
+form .output{
+  width: 80%;
+  min-height: 200px;
+  background: #656565;
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
+  color: whitesmoke;
+}
+button{
+  outline: none;
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  margin: 20px 0;
+  cursor: pointer;
+}
+.fa-copy{
+  color: whitesmoke;
+  position: relative;
+  cursor: pointer;
+  position: absolute;
+  bottom: 1%;
+  right: 12%;
+}
+.fa-paste{
+  color: white;
+  position: relative;
+  cursor: pointer;
+  position: absolute;
+  top: 41%;
+  right: 12%;
+}
